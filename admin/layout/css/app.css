@@ -1,0 +1,386 @@
+/* start main rules */
+
+body{
+    background-color: #f4f4f4;
+}
+
+.asterisk{
+    position: absolute;
+    right: 20px;
+    top: 35px;
+    color: #D20707;
+    font-size: 25px;
+}
+
+h1{
+    font-size: 55px;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #666;
+}
+
+.alert-message{
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px 0;
+    border-left: 5px solid #080 ;
+}
+
+/* end main rules  */
+
+
+/* start login form */
+
+.login {
+    width: 300px;
+    margin: 100px auto;
+}
+
+.login input{
+    margin-bottom: 10px ;
+}
+
+.login .form-control {
+    background-color: #EAEAEA;
+}
+
+.login .btn {
+    background-color: #008dde;
+}
+
+/* end login form */
+
+/* Start bootstrap edit */
+
+.fixed-top {
+    position: relative!important;
+}
+
+.navbar-nav .dropdown-menu {
+    position: absolute !important;
+    float: none;
+}
+
+.dropdown-menu{
+    background-color: #343a40;
+    padding: 0 !important;
+}
+
+.dropdown-item {
+color:#fff;
+}
+
+.dropdown-divider
+{
+    border-color:rgba(255,255,255,.5); ;
+}
+
+.dropdown-divider
+{
+    margin: 0;
+}
+
+.form-control {
+    position: relative;
+}
+
+/* End bootstrap edit */
+
+
+/* Start Dashboard */
+
+.home-stats .stat{
+    padding: 20px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+.home-stats .st-members{
+    background-color: #3498db;
+}
+
+.home-stats .st-pendings{
+    background-color: #e74c3c;
+}
+
+.home-stats .st-items{
+    background-color: #27ae60;
+}
+
+.home-stats .st-comments{
+    background-color: #1abc9c;
+}
+
+.home-stats a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.home-stats span{
+    display: block;
+    font-size: 60px;
+}
+
+.latest{
+    margin-top: 30px;
+}
+
+.latest .toggle-info{
+    color: #999;
+    cursor: pointer;
+}
+
+.latest .toggle-info:hover{
+    color: #444;
+}
+
+.latest-elements{
+    margin:0;
+    padding: 0;
+}
+
+.latest-elements li{
+    padding: 10px;
+    overflow: hidden;
+}
+
+.latest-elements li:nth-child(odd){
+    background-color: #eee;
+}
+
+.latest-elements .btn{
+    padding: 2px 8px;
+}
+
+.latest-elements .btn-activate{
+    margin-right: 5px!important;
+}
+
+.latest-comments li{
+    padding: 10px;
+    overflow: hidden;
+}
+
+.latest-comments .comments-box{
+    margin: 5px 0 10px;
+}
+
+.latest-comments .comments-box .comment-writer,
+.latest-comments .comments-box .comment-text{
+    float: left;
+}
+
+.latest-comments .comments-box .comment-writer{
+    width: 80px;
+    text-align: center;
+    margin-right: 20px ;
+    position: relative;
+    top: 6px;
+}
+
+.latest-comments .comments-box .comment-text{
+    width: calc(100% - 100px);
+    background-color: #efefef;
+    padding: 10px;
+    position: relative;
+}
+
+.latest-comments .comments-box .comment-text::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -28px;
+    top: 5px;
+    width: 0;
+    height: 0;
+    border-style: solid ;
+    border-color: transparent #efefef transparent transparent;
+    border-width: 15px;
+}
+/* End Dashboard */
+
+/* Start member page */
+
+.show-password{
+    position: absolute;
+    top: 42px;
+    right: -30px;
+}
+
+table{
+    background-color: #fff;
+    -webkit-box-shadow: 0 3px 10px #ccc;
+    -moz-box-shadow: 0 3px 10px #ccc;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+table .btn{
+    padding: 3px 10px;
+}
+
+table .btn-activate{
+    margin-left: 4px;
+}
+
+thead{
+    background-color: #333;
+    color: #fff;
+}
+
+.manage-members img{
+    width: 50px;
+    height: 50px;
+}
+
+/* End member page */
+
+/* Start categorie page */
+
+.categories{
+    overflow: hidden;
+}
+
+.categories .card-header{
+    color: #959595;
+    font-weight: bold;
+}
+
+.categories .card-header .options{
+    font-weight: normal;
+}
+
+.categories .options a{
+    text-decoration: none;
+    color: #888;
+}
+
+.categories .options .options-view-icon {
+    position: relative;
+    top: 1px;
+}
+
+.categories .options .options-sort-icon{
+    position: relative;
+    top: 1px;
+}
+
+.categories .options span{
+    color: #888;
+    cursor: pointer;
+}
+
+.categories .options .active{
+    color: #f00;
+}
+
+
+.categories li:hover{
+    background-color: #eee;
+}
+
+.categories li:hover .hidden-buttons{
+    right: 10px;
+}
+
+.categories .hidden-buttons{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+
+    position: absolute;
+    top: 5px;
+    right: -150px;
+}
+.categories .hidden-buttons .btn{
+    margin: 6px 2px;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+
+.categories .badge{
+    margin-right: 5px!important;
+    padding: 5px 8px !important;
+}
+.categories h5{
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #6A6A6A;
+    font-weight: bold;
+}
+.categories p,h5{
+    margin: 0 0 6px 0 ;
+}
+
+.categories .full-view p{
+    color: #707070;
+}
+
+.categories .full-view span svg{
+    position: relative;
+    top: 0.5px;
+}
+
+.btn-create-category{
+    padding: 1px 10px;
+    margin: 10px 0;
+}
+
+.categories .categories-children-header{
+    margin: 0;
+    font-weight: bold;
+    color: #22ab79;
+}
+
+.categories .categories-children-list{
+    margin: 0 0 10px 0;
+    list-style: none;
+}
+
+.categories .categories-children-list li{
+    margin-left: 20px;
+}
+
+.categories .categories-children-list li::before{
+    /* content: "- "; */
+}
+
+.categories .categories-children-list .categories-children-list-item .btn-delete{
+    color: #f00;
+    margin-left: 5px;
+    display: none;
+}
+
+/* End categorie page */
+
+/* Start items page */
+
+.comments li {
+    overflow: hidden;
+}
+
+.comments li:hover{
+        background-color: #eee;    
+}
+
+.comments li:hover .hidden-buttons{
+    right: 10px;
+}
+
+.comments .hidden-buttons{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+
+    position: absolute;
+    top: 5px;
+    right: -150px;
+}
+
+.comments .hidden-buttons .btn{
+    margin: 6px 2px;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+/* End items page */

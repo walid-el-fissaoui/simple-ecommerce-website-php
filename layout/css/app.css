@@ -1,0 +1,277 @@
+/* start main rules */
+
+body{
+    background-color: #f4f4f4;
+}
+
+.asterisk,
+.main-form .asterisk{
+    position: absolute;
+    color: #D20707;
+}
+
+.asterisk{
+    right: 15px;
+    top: 6px;
+    font-size: 20px;
+}
+
+.main-form .asterisk{
+    right: 15px;
+    top: 38px;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 55px;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #666;
+}
+
+.alert-message{
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px 0;
+    border-left: 5px solid #080 ;
+}
+
+/* end main rules  */
+
+/* START Header */
+
+.user-profile-image{
+    width: 32px;
+    height: 32px;
+    margin: 2px 10px;
+}
+
+/* END Header */
+
+/* START authentication page */
+
+.authentication-page form,
+.messages{
+    max-width: 400px;
+    margin: auto;
+}
+
+.authentication-page form input{
+    margin-bottom: 10px;
+}
+
+.authentication-page .input-container{
+    position: relative;
+}
+
+.authentication-page [data-class='signIn'].selected{
+    color: #007bff;
+}
+
+.authentication-page [data-class='signUp'].selected{
+    color: #28a745;
+}
+
+.authentication-page h1{
+    color: #C0C0C0;
+}
+
+.authentication-page h1 span{
+    cursor: pointer;
+}
+
+.authentication-page .signUp{
+    display: none;
+}
+
+.messages .message{
+    padding: 10px;
+    text-align: left;
+    border-left: 5px solid #cd6858;
+    background-color: #fff;
+    margin-bottom: 8px;
+    border-right: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    color: #919191;
+}
+
+.messages .error{
+    border-left: 5px solid #cd6858;
+}
+
+.messages .success{
+    border-left: 5px solid #28a745;
+}
+
+/* END authentication page */
+
+/* START categories */
+
+.item-box{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.item-box .price-tag{
+    background-color: #B4B4B4;
+    padding: 2px 10px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.item-box .approve-status{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #b85a5a;
+    color: #fff;
+    padding: 3px 5px;
+}
+
+.item-box .card-body p{
+    height: 60px;
+}
+
+.item-box .date{
+    text-align: right;
+	font-size: 13px;
+	color: #AAA;
+	font-weight: bold;
+}
+
+/* END categories */
+
+/* START Profile page */
+
+.information{
+    margin-top: 20px;
+}
+
+.information .card-body{
+    padding: 0;
+    margin: 0;
+}
+
+.information ul{
+    margin:0;
+    padding: 0;
+}
+
+.information ul li{
+    padding: 10px;
+    overflow: hidden;
+}
+
+.information ul li:nth-child(odd){
+    background-color: #eee;
+}
+
+.information ul li span{
+    display: inline-block;
+    width: 200px;
+}
+
+.information .edit-btn{
+    margin: 10px;
+}
+
+/* END Profile page */
+
+/* START show item page */
+
+.item-info{
+    margin:0;
+}
+
+.item-info ul{
+    margin:0;
+    padding: 0;
+}
+
+.item-info ul li{
+    padding: 10px;
+    overflow: hidden;
+}
+
+.item-info ul li:nth-child(odd){
+    background-color: #eee;
+}
+
+.item-info ul li span{
+    display: inline-block;
+    width: 200px;
+}
+
+.item-info h5{
+    padding: 0;
+    margin: 0 10px;
+}
+
+.item-info p{
+    padding: 0;
+    margin: 0 10px;
+}
+
+.item-tags a{
+    display: inline-block;
+    background-color: #e2e2e2;
+    padding: 2px 10px;
+    border-radius: 5px;
+    color: #666;
+    margin-right: 5px;
+}
+
+.add-comment-form h5{
+    margin: 0 0 10px;
+}
+
+.add-comment-form textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 120px;
+}
+
+.comment-box{
+    margin-bottom: 20px;
+}
+
+.comment-box img{
+    max-width: 100px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.comment-box .lead{
+    background-color: #e0e0e0;
+    position: relative;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.comment-box .lead::before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent #e0e0e0 transparent transparent;
+    position: absolute;
+    left: -28px;
+    top: 10px;
+}
+
+/* END show item page */
+
+/* START custom styles */
+
+.custom-hr{
+    border-top: 1px solid #c9c9c9;
+}
+
+/* END custom styles */
